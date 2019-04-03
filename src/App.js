@@ -4,6 +4,9 @@ import './App.css';
 
 class App extends Component {
   deferredPrompt;
+  state = {
+    enablePopup: false
+  }
   componentDidMount() {
 
     window.addEventListener('beforeinstallprompt', (e) => {
@@ -11,6 +14,24 @@ class App extends Component {
       e.preventDefault();
       // Stash the event so it can be triggered later.
       this.deferredPrompt = e;
+      this.setState({enablePopup: true});
+    });
+  }
+
+  showAddToHomeScreenPopup = () => {
+    this.setState({
+      enablePopup: false
+    }, async () => {
+      // Show the prompt
+      this.deferredPrompt.prompt();
+      // Wait for the user to respond to the prompt
+      const choiceResult = await this.deferredPrompt.userChoice
+      if (choiceResult.outcome === 'accepted') {
+        console.log('User accepted the A2HS prompt');
+      } else {
+        console.log('User dismissed the A2HS prompt');
+      }
+      this.deferredPrompt = null;
     });
   }
 
@@ -31,6 +52,13 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        {this.state.enablePopup && (
+          <div>
+            <div>Enable add to home screen popup</div>
+            <button onClick={this.showAddToHomeScreenPopup}>Enable</button>
+          </div>
+        )
+        }
       </div>
     );
   }
