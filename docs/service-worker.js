@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://ajay-techjini.github.io/pwa-add-to-home-screen/precache-manifest.bec58602736225bf36fd311a2e0f389f.js"
+  "https://ajay-techjini.github.io/pwa-add-to-home-screen/precache-manifest.f1890ed6449bb544e9d16e5cb0f0f7ba.js"
 );
 
 workbox.clientsClaim();
