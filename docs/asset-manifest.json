@@ -1,14 +1,10 @@
 {
-  "main.css": "/static/css/main.c07c5f34.chunk.css",
-  "main.js": "/static/js/main.afa1ad01.chunk.js",
-  "main.js.map": "/static/js/main.afa1ad01.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
-  "static/js/2.c29d463a.chunk.js": "/static/js/2.c29d463a.chunk.js",
-  "static/js/2.c29d463a.chunk.js.map": "/static/js/2.c29d463a.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.afbf66d8cfc4bcf84f730411c8ee0e4a.js": "/precache-manifest.afbf66d8cfc4bcf84f730411c8ee0e4a.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.c07c5f34.chunk.css.map": "/static/css/main.c07c5f34.chunk.css.map",
-  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+  "main.css": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/css/main.9fcd074f.chunk.css",
+  "main.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/js/main.2e014a24.chunk.js",
+  "runtime~main.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/js/runtime~main.0f5a3722.js",
+  "static/js/2.c29d463a.chunk.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/js/2.c29d463a.chunk.js",
+  "index.html": "https://ajay-techjini.github.io/pwa-add-to-home-screen/index.html",
+  "precache-manifest.bec58602736225bf36fd311a2e0f389f.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/precache-manifest.bec58602736225bf36fd311a2e0f389f.js",
+  "service-worker.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/service-worker.js",
+  "static/media/logo.svg": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/media/logo.5d5d9eef.svg"
 }
