@@ -1,0 +1,9 @@
+{
+  "main.css": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/css/main.9fcd074f.chunk.css",
+  "main.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/js/main.895b22d7.chunk.js",
+  "runtime~main.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/js/runtime~main.0f5a3722.js",
+  "static/js/2.d81d4a98.chunk.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/static/js/2.d81d4a98.chunk.js",
+  "index.html": "https://ajay-techjini.github.io/pwa-add-to-home-screen/index.html",
+  "precache-manifest.7dbbb1fb55ae669d8eaebe68343bf4df.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/precache-manifest.7dbbb1fb55ae669d8eaebe68343bf4df.js",
+  "service-worker.js": "https://ajay-techjini.github.io/pwa-add-to-home-screen/service-worker.js"
+}
