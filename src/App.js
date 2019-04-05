@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
+  state = {
+    addToHomeScreenState: ''
+  }
 
   componentDidMount = () => {
     window.document.querySelector('#show-add-to-home-screen-popup button')
@@ -13,9 +16,14 @@ class App extends Component {
         const choiceResult = await window.deferredPrompt.userChoice
         if (choiceResult.outcome === 'accepted') {
           console.log('User accepted the A2HS prompt');
-          document.querySelector('.App').innerHTML = 'User accepted the A2HS prompt';
+          this.setState({
+            addToHomeScreenState: 'User accepted the A2HS prompt.'
+          });
         } else {
           console.log('User dismissed the A2HS prompt');
+          this.setState({
+            addToHomeScreenState: 'User dismissed the A2HS prompt.'
+          });
         }
         window.deferredPrompt = null;
       });
@@ -24,7 +32,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <div>Sample app for display the custom popup for Add to home screen.</div>
+        <div>{this.state.addToHomeScreenState}</div>
       </div>
     );
   }
